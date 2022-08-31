@@ -1,119 +1,68 @@
 <!DOCTYPE html>
 <html>
    <html lang="ko">
-   <head>...</head>
+   <head>
+     <meta name="theme-color"content="#F5A623">
+     <meta http-equiv="refresh" content="3;url=main.html">
+     <meta http-equiv="Page-Enter" content="blendTrans(Duration=0.3)">
+     <meta http-equiv="Page-Exit" content="blendTrans(Duration=0.3)">
+     <title>loading...</title>
+     <style>
+         body,ul{
+           margin:0;
+           padding:0;
+         }
+
+         li{
+           list-style-type:none;
+         }
+
+         .wrapper {
+           display: flex;
+           height:100vh;
+           justify-content: center;
+           align-items: center;
+         }
+         .team{
+           background-color: white;
+           display:flex;
+
+         }
+         .team-item{
+           flex-basis:100px;
+           margin:0 10px;
+           transition: all .4s;
+         }
+
+         .team-item img:hover{
+           width:100%;
+           flex-basis: 300%;
+         }
+
+         @keyframes blink-effect {
+           50% {
+             opacity: 0;
+           }
+         }
+
+         .blink {
+           animation: blink-effect 1s step-end infinite;
+         }
+
+        </style>
+   </head>
    <body class="has_scrollbar">
      <div class="wrapper">
         <ul class="pg archive">
-             <li class="team-item">
-                          <div class="profile">
-                            <img src="pg.PNG">
-                            <div class="profile-contents"></div>
-                            <p> </p>
-                          </div>
-             </li>
+          <li class="team-item">
+            <div class="profile">
+              <img src="pg.PNG">
+              <div class="profile-contents"></div>
+              <p> </p>
+            </div>
+          </li>
         </ul>
      </div>
-
-
-
-       <meta name="theme-color"content="#F5A623">
-           <style>
-
-           body,ul{
-             margin:0;
-             padding:0;
-
-           }
-           li{
-             list-style-type:none;
-           }
-
-           .wrapper {
-             display: flex;
-             height:100vh;
-             justify-content: center;
-             align-items: center;
-           }
-           .team{
-             background-color: white;
-             display:flex;
-
-           }
-           .team-item{
-             flex-basis:100px;
-             margin:0 10px;
-             transition: all .4s;
-           }
-
-           .team-item img:hover{
-             width:100%;
-                  flex-basis: 300%;
-           }
-
-
-           .nav{
-             border-bottom: 1px solid black;
-             padding:28px;
-             font-size: 13vw;
-             font-weight: bold;
-             max-width: 420px;
-             max-width: 420px;
-             margin:250px 250px;
-
-             text-align: center;
-             line-height: 200px;
-             align-items:center;
-             margin-right: 120px;float:left;> 권리</div>
-             background-color: green;
-             position: absolute;
-
-              }
-
-       div{
-          display:inline-block;
-          font-weight:bold;
-          color:white;
-          -webkit-text-stroke:1px#006400;
-          letter-spacing: 2px;
-        text-transform: uppercase;
-          font-style: solid;
-          position:relative;
-         }
-.menu div:before{
-  content:attr(data-text);
-  position:absolute;
-  left:0;
-  top:0;
-  color:#006400;
-  width:0;
-  overflow:hidden;
-}
-.menu div:hover:before{
-  width:100%;
-}
-<div style="width:100000px;margin-left:-2986.18px;animation:31.9743s linear 0s 1 normal none paused marqueeAnimation-1042159;"class="js-marquee-wrapper">
-     </style>
-
-
-<body>
-<li>
- <div class="nav">
-   <div class="nav-middle-items">
-
-<ul class="menu">
-
-    <div class="#"data-text="여성">여성</div>
-      <div href="#"data-text="인권">인권</div>
-        <div href="#"data-text="평등">평등</div>
-          <div href="#"data-text="사회">사회</div>
-            <div href="#"data-text="권리">권리</div>
-              <div href="#"data-text="평화">평화</div>
-                <div href="#"data-text="차별">차별</div>
-                  <div href="#"data-text="불평">불평</div>
-  </li>
-</ul>
-
- </div>
- </body>
+     <div style="width:100000px;margin-left:-2986.18px;animation:31.9743s linear 0s 1 normal none paused marqueeAnimation-1042159;"class="js-marquee-wrapper"></div>
+    </body>
  </html>
