@@ -73,8 +73,9 @@
               margin-left: 100;
               width: 300%;
             }
-            to {margin-left: 0%;
-            width: 100%;
+            to {
+              margin-left: 0%;
+              width: 100%;
           }
          }
 
@@ -91,22 +92,38 @@
         .menu div:hover:before{
           width:100%;
           }
+
+        .wrap {
+          width: 100%;
+          height: 2000px;
+        }
+
+        .title {
+          display: inline-block;
+          position: sticky;
+          top: 15px;
+          width: 50px;
+          height: 50px;
+        }
       </style>
    </head>
    <body>
-     <body>
+     <div class="wrap">
+       <div class="title">
+         <img src="pg.png" width="500">
+       </div>
      <li>
       <div class="nav">
         <div class="nav-middle-items">
         <ul class="menu">
-         <div class="#"data-text="여성">여성</div>
-         <div href="#"data-text="인권">인권</div>
-         <div href="#"data-text="평등">평등</div>
-         <div href="#"data-text="사회">사회</div>
-         <div href="#"data-text="권리">권리</div>
-         <div href="#"data-text="평화">평화</div>
-         <div href="#"data-text="차별">차별</div>
-         <div href="#"data-text="불평">불평</div>
+         <a href="view.html"><div class="#"data-text="여성">여성</div></a>
+         <a href="view.html"><div href="#"data-text="인권">인권</div></a>
+         <a href="view.html"><div href="#"data-text="평등">평등</div></a>
+         <a href="view.html"><div href="#"data-text="사회">사회</div></a>
+         <a href="view.html"><div href="#"data-text="권리">권리</div></a>
+         <a href="view.html"><div href="#"data-text="평화">평화</div></a>
+         <a href="view.html"><div href="#"data-text="차별">차별</div></a>
+         <a href="view.html"><div href="#"data-text="불평">불평</div></a>
        </ul>
        </div></div>
      </li>
